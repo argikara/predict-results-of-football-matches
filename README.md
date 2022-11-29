@@ -12,3 +12,4 @@ In the ipynb PreProccessing file, a new dataset was created from the statistics 
 
 
 ## Model Selection
+Because in the first 5 fixtures there are not enough statistics for the teams, these fictures were deleted for every football year. In the next step with the help of a correlation matrix were found the features with the biggest correlation, and theone of the two was deleted. Created a function that tuning the hyper-parameters of the algorithms and at the end was selected the algorithm with the best accuracy.
